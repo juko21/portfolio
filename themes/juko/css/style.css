@@ -26,29 +26,29 @@ body {
 
 .main {
     flex: 1 0 auto;
-    max-width: 1200px;
-    margin: auto;
-    padding: 2em;
+    width: 100%;
+    padding: 3em calc((100% - 1200px) / 2);
+    background-color: #F6F5F4;
 }
 
 .header {
     flex: 0 0 auto;
-    width: 1200px;
-    padding: 2em 0;
+    width: 100%;
+    padding: 2em calc((100% - 1200px) / 2);
     margin: auto;
 }
 
 .footer {
     flex: 0 0 auto;
-    width: 1200px;
-    padding: 2em 0;
+    width: 100%;
+    padding: 2em calc((100% - 1200px) / 2);
     margin: auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 2em;
 }
 
 .col40 {
@@ -66,33 +66,32 @@ body {
 }
 
 .header {
+    border-bottom: #ddd solid 2px;
 }
-
 /* Title */
 
 .title, .logo {
     margin: 0 2em 0 0;
 }
 
-.title {
-    
-}
 .logo {
     width: 80px;
 }
-
+.logo:hover {
+    opacity: 0.7;
+}
 .title p {
     font-style: italic;
 }
 .title h1 {
-    margin-bottom: 0.7em;
+    margin-bottom: 0.3em;
 }
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: #ddd solid 2px;
 }
 
 .footer .social {
@@ -117,18 +116,36 @@ p {
     margin-bottom: 1em;
 }
 
+pre {
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
 p:last-child {
     margin-bottom: 0;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1em;
-    font-weight: bold;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-family: 'Rubik', sans-serif;
 }
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.1em;}
 
 a {
     text-decoration: none!important;
+    font-weight: 600;
 }
 
 a:link {color:#444}
@@ -190,7 +207,7 @@ blockquote {
     }
     .main {
         width: 100%;
-        padding: 2em 3em;
+        padding: 3em;
     }
 }
 
@@ -199,11 +216,14 @@ blockquote {
         width: 100%;
         justify-content: left;
     }
-    .header, .footer {
+    .header {
+        padding: 1.4em 1.4em 0 1.4em
+    }
+    .footer {
         padding: 1.4em;
     }
     .main {
-        padding: 1.4em 2.1em;
+        padding: 2.1em
     }
     .title h1 {
         font-size: 24px;
@@ -235,6 +255,7 @@ blockquote {
     .logo {
         width: 60px;
     }
+
     .logo, .title {
         margin-right: 1em;
     }

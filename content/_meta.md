@@ -1,5 +1,5 @@
 ---
-Logo: image/logo.png
+Logo: image/logo_fill.png
 Tagline: Juhani Kotaniemi
 Social:
     - title: Länk till sidans github repo.
