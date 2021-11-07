@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+
+    {% if meta.description %}
+    <meta name="description" content="{{ meta.description|striptags }}" />
+    {% endif %}
+
+    {% if current_page %}
+    <link rel="canonical" href="{{ current_page.url }}" />
+    {% endif %}
+
+    <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
+    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+</head>

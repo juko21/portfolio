@@ -42,7 +42,11 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 0 0 2em 0;
+}
+
+.logo img {
+    width: 120px;
 }
 
 @media (max-width: 767px) {

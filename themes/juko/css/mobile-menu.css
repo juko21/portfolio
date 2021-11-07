@@ -1,0 +1,62 @@
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 0  0 1em;
+}
+
+.nav a, .nav-toggle {
+    color: #333;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 1em 0;
+    }
+
+    .nav ul li:last-child {
+        padding: 0;
+    }
+
+    .nav ul li a {
+        display: block;
+    }
+    .nav ul li a:last-child {
+        padding: 0;
+    }
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+        margin-left: auto;
+    }
+}
