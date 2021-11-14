@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Irish+Grover&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Merriweather sans', sans-serif;
+    color: $font-color;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 0 $def-margin 0;
+    font-weight: 300;
+    line-height: $def-line-height;
+    letter-spacing: 0.05em;
+}
+
+h1,
+h2 {
+    margin: (2 * $def-margin) 0 $def-margin 0;
+}
+
+h1:first-child,
+h2:first-child {
+    margin: 0 0 $def-margin 0;
+}
+
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2.2rem;}
+h3 { font-size: 1.9rem;}
+h4 { font-size: 1.6rem;}
+h5 { font-size: 1.3rem;}
+h6 { font-size: 1.1rem;}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: $def-line-height;
+    margin-bottom: $def-margin;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:link {color: $font-color;}
+a:visited {color: $font-color;}
+a:hover {color: $accent-color;}
+
+/*Adjust for lineheight to align top with image */
+
+h2:first-child,
+p:first-child {
+    position: relative;
+    margin-top: -0.2em;
+}

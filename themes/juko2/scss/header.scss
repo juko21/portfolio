@@ -1,0 +1,40 @@
+.header {
+    height: calc(80px + (4 * $def-margin));
+    width: 100%;
+    padding: 2 * $def-margin;
+    display: flex;
+    align-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: 2 * $def-margin;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title {
+    float: left;
+    display: block;
+}
+
+.title h1 {
+    clear: both;
+    float: left;
+    font-size: 1.8em;
+    margin-bottom: 0.4rem;
+}
+
+.title p {
+    clear: both;
+    float: left;
+}
+
+.nav {
+    margin: auto 0 auto auto;
+}

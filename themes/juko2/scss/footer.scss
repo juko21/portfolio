@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    padding: 2 * $def-margin;
+    display: flex;
+    align-content: space-between;
+    row-gap: $def-margin;
+    flex-wrap: wrap;
+}
+
+footer .social {
+    margin-left: auto;
+}
+
+footer .social .fas,
+footer .social .fab {
+    font-size: 2rem;
+    margin-left: $def-margin;
+}

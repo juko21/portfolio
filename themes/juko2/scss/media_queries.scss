@@ -1,0 +1,113 @@
+@media (max-width: 1250px) {
+    main {
+        width: 100%;
+        padding: 3 * $def-margin 2 * $def-margin;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    
+    .nav {
+        margin: 2 * $def-margin auto 0 auto;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        /*margin: 0.6667em 0;*/
+        font-size: 2rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .index-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col40 {
+        flex: 1 1 100%;
+    }
+
+    .index-img {
+        float: unset;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 60px;
+        top: $def-margin;
+        left: $def-margin;
+        transform: translateX(0);
+    }
+
+    .title {
+        margin-left: calc($def-margin  + 60px);
+    }
+
+    .title h1,
+    footer .copy h4,
+    footer .social .fab,
+    footer .social .fas {
+        font-size: 1.5rem;
+    }
+
+    .title p {
+        font-size: 0.8em;
+    }
+
+    .header {
+        padding: $def-margin;
+        padding-bottom: 0;
+    }
+
+    .footer {
+        padding: $def-margin;
+    }
+
+    main {
+        padding: $def-margin;
+    }
+
+    .nav {
+        padding-bottom: 1 * $def-margin;
+    }
+}
+
+@media (max-width: 440px) {
+    footer .social,
+    footer .copy {
+        flex: 1 1 100%;
+    }
+
+    .social *:first-child {
+        margin-left: 0;
+    }
+}
