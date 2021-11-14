@@ -6466,7 +6466,7 @@ html {
 
 body {
   display: flex;
-  background-color: #6E9DA4;
+  background-color: #6e9da4;
   min-height: 100%;
   flex-direction: column;
 }
@@ -6514,11 +6514,14 @@ main {
 }
 
 /*SETTING MARGINS FOR BASE ELEMENTS*/
-ul, pre, table {
+ul,
+pre,
+table {
   margin-bottom: 1.4rem;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.4rem;
 }
 
@@ -6528,7 +6531,7 @@ html {
 
 body {
   font-family: "Merriweather sans", sans-serif;
-  color: white;
+  color: #fff;
   text-align: left;
 }
 
@@ -6596,19 +6599,20 @@ a {
 }
 
 a:link {
-  color: white;
+  color: #fff;
 }
 
 a:visited {
-  color: white;
+  color: #fff;
 }
 
 a:hover {
-  color: #DE17A8;
+  color: #de17a8;
 }
 
 /*Adjust for lineheight to align top with image */
-h2:first-child, p:first-child {
+h2:first-child,
+p:first-child {
   position: relative;
   margin-top: -0.2em;
 }
@@ -6692,8 +6696,12 @@ footer .social {
   margin-left: auto;
 }
 
-footer .social .fas, .fab {
+footer .social .fas,
+footer .social .fab {
   font-size: 2rem;
+}
+
+footer .social .fas {
   margin-left: 1.4rem;
 }
 
@@ -6709,17 +6717,19 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #838383;
+  background: #fff;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
+  color: #444;
 }
 
 pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #838383;
+  background: #fff;
+  color: #444;
 }
 
 pre code {
@@ -6732,7 +6742,7 @@ pre code {
   line-height: 1.4;
 }
 
-.index_img {
+.indeximg {
   max-width: 400px;
   float: right;
 }
@@ -6760,11 +6770,6 @@ pre code {
   main {
     width: 100%;
     padding: 4.2rem 2.8rem;
-  }
-}
-@media (max-width: 1000px) {
-  .index_img {
-    max-width: 300px;
   }
 }
 @media (max-width: 1000px) {
@@ -6804,13 +6809,17 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
+
+  .indeximg {
+    max-width: 300px;
+  }
 }
 @media (max-width: 768px) {
   .col40 {
     flex: 1 1 100%;
   }
 
-  .index_img {
+  .indeximg {
     float: unset;
     width: 100%;
     max-width: 500px;

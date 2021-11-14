@@ -3,17 +3,19 @@ code {
     padding: 0.1em 0.2em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: #838383;
+    background: #fff;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
+    color: $alt-font-color;
 }
 
 pre {
     padding: 0 1em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: #838383;
+    background: #fff;
+    color: $alt-font-color;
 }
 
 pre code {

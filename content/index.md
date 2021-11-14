@@ -16,6 +16,6 @@ När jag inte sitter framför datorn, och i tider med lite färre pandemier, gil
 /Juhani Kotaniemi
 </div>
 <div class="col40" markdown="1">
-![Jag](image/me.jpg){.index-img}
+![Jag](image/me.jpg){.indeximg}
 </div>
 </div>
