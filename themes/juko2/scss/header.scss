@@ -4,6 +4,7 @@
     padding: 2 * $def-margin;
     display: flex;
     align-content: space-between;
+    grid-area: 'header';
 }
 
 .logo {

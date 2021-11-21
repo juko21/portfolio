@@ -12,13 +12,27 @@ html {
 body {
     display: flex;
     background-color: $background-color;
-    min-height: 100%;
+    height: 100%;
     flex-direction: column;
+}
+
+.grid-wrapper {
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
 }
 
 main {
     width: 64rem;
     margin: auto;
+    margin-bottom: auto;
+    height: 100%;
+    grid-area: 'main';
     padding: 3 * $def-margin 0;
     flex: 1;
 }
@@ -70,3 +84,4 @@ ul,
 ol {
     padding-left: $def-margin;
 }
+

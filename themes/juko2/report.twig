@@ -1,17 +1,16 @@
 {% include 'incl/header.twig' %}
 
 <body>
-    <div class="grid-wrapper">
-
     {% include 'incl/nav.twig' %}
 
     <main class="main" role="main">
-    
-        {{ content }}
+        <h1>Vår egen layout från report.twig</h1>
+        <div class="container">
+            {{ content }}
+        </div>
     </main>
     
     {% include 'incl/footer.twig' %}
-    </div>
 </body>
 
 </html>

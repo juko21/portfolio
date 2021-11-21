@@ -1,0 +1,79 @@
+.tech-listing {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2 * $def-margin;
+    row-gap: 2 * $def-margin;
+}
+
+.tech-article {
+    display: grid;
+    grid-template-columns: 13rem auto;
+    column-gap: 2 * $def-margin;
+    row-gap: 1 * $def-margin;
+}
+
+.tech-article ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tech-article-listing {
+    border-right: $font-color solid 1px;
+}
+
+.tech-title {
+    margin-bottom: 0 !important;
+    grid-column: 1 / 4;
+}
+
+.tech-box {
+    display: flex;
+    //grid-column: auto;
+    flex-direction: column;
+    background-color: #fff;
+    color: $alt-font-color;
+    border-radius: 5px;
+    min-height: 250px;
+    align-content: space-between;
+}
+
+.tech-box .tech-box-header {
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #8fabaf;
+
+}
+
+.tech-box h4 {
+    padding: 10px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.tech-box:last-child {
+    grid-column: 1 / 4;
+}
+
+.tech-box-content {
+    padding: 1 * $def-margin;
+    text-align: left;
+    height: auto;
+}
+
+.tech-box-content p {
+    color: $alt-font-color;
+    overflow-wrap: anywhere;
+}
+
+.tech-box-link {
+    display: block;
+    width: auto;
+    margin: auto auto $def-margin $def-margin;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.tech-box-link:link { color: $alt-font-color; }
+.tech-box-link:visited { color: $alt-font-color; }
+.tech-box-link:hover { color: $accent-color; }

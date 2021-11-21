@@ -5,6 +5,8 @@
     align-content: space-between;
     row-gap: $def-margin;
     flex-wrap: wrap;
+    grid-area: 'footer';
+
 }
 
 footer .social {
