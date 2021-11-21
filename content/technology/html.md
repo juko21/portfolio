@@ -1,7 +1,7 @@
 ---
 Title: HTML
 Description: HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben.
-Template: technologies
+Template: technology
 ---
 
 # HTML

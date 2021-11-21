@@ -1,7 +1,7 @@
 ---
 Title: PHP
 Description: PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll.
-Template: technologies
+Template: technology
 ---
 
 # PHP

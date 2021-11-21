@@ -1,7 +1,7 @@
 ---
 Title: Git
 Description: Git är ett distribuerat versionshanterings-system som skapades 2005 av Linus Torvalds.
-Template: technologies
+Template: technology
 ---
 
 # Git

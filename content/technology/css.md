@@ -1,7 +1,7 @@
 ---
 Title: CSS
 Description: Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML.
-Template: technologies
+Template: technology
 ---
 # CSS
 

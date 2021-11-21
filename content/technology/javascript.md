@@ -1,7 +1,7 @@
 ---
 Title: JavaScript
 Description: JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans med HTML och CSS grunden för webben. 
-Template: technologies
+Template: technology
 ---
 
 # JavaScript

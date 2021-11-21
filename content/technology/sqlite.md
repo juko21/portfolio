@@ -1,7 +1,7 @@
 ---
 Title: SQLite
 Description: SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL).
-Template: technologies
+Template: technology
 ---
 
 # SQLite

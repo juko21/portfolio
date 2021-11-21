@@ -1,7 +1,7 @@
 ---
 Title: Python
 Description: Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. 
-Template: technologies
+Template: technology
 ---
 
 # Python
