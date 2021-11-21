@@ -4,10 +4,10 @@
 <div class="grid-wrapper">
     {% include 'incl/nav.twig' %}
 
-        {% if current_page.id == "technologies/index" %}
+        {% if current_page.id == "technology/index" %}
             <main class="main tech-listing" role="main">
                 <h2 class="tech-title">TEKNOLOGIER</h2>
-                {% for page in pages("technologies/") %}
+                {% for page in pages("technology/") %}
                     <div class="tech-box">
                         <a class="tech-box-header" href="{{ page.url }}">
                             <h4>{{ page.title }}</h4>
@@ -24,7 +24,7 @@
             <main class="main tech-article" role="main">
                 <div class="tech-article-listing">
                     <ul>
-                    {% for page in pages("technologies/") %}
+                    {% for page in pages("technology/") %}
                         {% if page.id != current_page.id %}
                             <li>
                                 <a href="{{ page.url }}">
