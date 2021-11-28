@@ -1,0 +1,28 @@
+{% include 'incl/header.twig' %}
+
+<body>
+<div class="grid-wrapper">
+    {% include 'incl/nav.twig' %}
+    <main class="main analysis-article" role="main">
+        <!--<div class="tech-article-listing">
+            <ul>
+            {% for page in pages("analysis/") %}
+                {% if page.id != current_page.id %}
+                    <li>
+                        <a href="{{ page.url }}">
+                            <h4>{{ page.title }}</h4>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>-->
+        <div class="tech-article-content">
+            {{ content }}
+        </div>    
+    </main>
+    {% include 'incl/footer.twig' %}
+</div>
+</body>
+
+</html>

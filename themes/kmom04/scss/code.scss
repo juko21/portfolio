@@ -1,0 +1,28 @@
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid $border-color;
+    border-radius: 0.3em;
+    background: $secondary-background-color;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+    color: $font-color;
+}
+
+pre {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $secondary-background-color;
+    color: $alt-font-color;
+    white-space: pre-wrap;
+    overflow: auto;
+}
+
+pre code {
+    margin: 0;
+    border: 0 none;
+    background: transparent;
+    line-height: 1.4;
+}

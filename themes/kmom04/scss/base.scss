@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: $background-color;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.grid-wrapper {
+    display: grid;
+    min-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+main {
+    width: 64rem;
+    margin: auto;
+    margin-bottom: auto;
+    height: 100%;
+    grid-area: 'main';
+    padding: 3 * $def-margin 0;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2 * $def-margin;
+    row-gap: 2 * $def-margin;
+}
+
+.col80 {
+    flex: 1 1 80%;
+}
+
+.col70 {
+    flex: 1 1 70%;
+}
+
+.col60 {
+    flex: 1 1 60%;
+}
+
+.col50 {
+    flex: 1 1 50%;
+}
+
+.col40 {
+    flex: 1 1 40%;
+}
+
+.col30 {
+    flex: 1 1 30%;
+}
+
+.col20 {
+    flex: 1 1 20%;
+}
+
+/*SETTING MARGINS FOR BASE ELEMENTS*/
+
+ul,
+pre,
+table {
+    margin-bottom: $def-margin;
+}
+
+ul,
+ol {
+    padding-left: $def-margin;
+}
+

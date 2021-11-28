@@ -1,0 +1,25 @@
+.hidden {
+    display: none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav ul li {
+    padding: 0.5em;
+}
+
+.nav-toggle {
+    display: none;
+}
+

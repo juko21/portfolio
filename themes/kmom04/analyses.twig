@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+<div class="grid-wrapper">
+    {% include 'incl/nav.twig' %}
+        <main class="main analysis-listing" role="main">
+            <h2 class="tech-title">ANALYSRAPPORTER</h2>
+            {% for page in pages("analysis/") %}
+                <div class="analysis-box">
+                    <a class="tech-box-header" href="{{ page.url }}">
+                        <h4>{{ page.title }}</h4>
+                    </a>
+                    <div class="tech-box-content">
+                        <p>{{ page.description }}
+                    </div>
+                    <a class="tech-box-link" href="{{ page.url }}">
+                        Läs mer&nbsp&nbsp<i class="fas fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            {% endfor %}
+    </main>
+    
+    {% include 'incl/footer.twig' %}
+</div>
+</body>
+
+</html>

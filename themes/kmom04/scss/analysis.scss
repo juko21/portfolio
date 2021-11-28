@@ -1,0 +1,33 @@
+.analysis-listing {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2 * $def-margin;
+}
+
+.analysis-article {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2 * $def-margin;
+    row-gap: 1 * $def-margin;
+}
+
+.analysis-box {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-background-color;
+    border-radius: 5px;
+    min-height: 150px;
+    align-content: space-between;
+    grid-column: 1 / 2;
+}
+
+.analysis-box h4 {
+    padding: 10px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.screenshot {
+    width: 50%;
+    max-width: 100%;
+}
