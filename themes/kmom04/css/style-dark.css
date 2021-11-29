@@ -6893,7 +6893,7 @@ pre code {
 }
 
 .screenshot {
-  width: 50%;
+  width: 70%;
   max-width: 100%;
 }
 
@@ -6995,6 +6995,10 @@ pre code {
     display: none;
     border-right: unset;
     border-bottom: #fff solid 1px;
+  }
+
+  .screenshot {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
