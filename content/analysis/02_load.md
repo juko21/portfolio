@@ -1,6 +1,7 @@
 ---
 Title: Load
-Description: Load
+Description: I denna rapport behandlas analys av laddningstider för de tre största mobiloperatörerna i Sverige. Rapporten går först igenom urval och metod, varefter resultat
+för de olika webbsidorna presenteras, följt av en analys.
 Template: analysis
 ---
 

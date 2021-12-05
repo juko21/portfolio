@@ -1,6 +1,6 @@
 ---
-Title: Gallery
-Description: Gallery
+Title: Galleri
+Description: Galleri
 Template: gallery
 Images:
     - file: raphael-schaller-GkinCd2enIY-unsplash.jpg
