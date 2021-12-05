@@ -1,5 +1,5 @@
 ---
-Title: Analysrapporter
+Title: Analys
 Description: Analysrapporter - samlingssida.
 Template: analyses
 ---

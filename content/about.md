@@ -1,5 +1,5 @@
 ---
-Title: Om sidan
+Title: Om
 Description: About page.
 ---
 

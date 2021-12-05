@@ -6863,6 +6863,47 @@ pre code {
   color: #e086c8;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 1.4rem;
+  row-gap: 1.4rem;
+}
+
+.thumbnail {
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.gallery h2,
+.gallery .embed-container {
+  grid-column: 1/4;
+}
+
+.embed-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .analysis-listing {
   display: grid;
   grid-template-columns: 1fr;
@@ -6895,6 +6936,12 @@ pre code {
 .screenshot {
   width: 70%;
   max-width: 100%;
+}
+
+.load-table {
+  width: 100%;
+  height: 270px;
+  margin: 1.4rem 0;
 }
 
 @media (max-width: 1250px) {
@@ -6956,8 +7003,14 @@ pre code {
     max-width: 500px;
   }
 
-  .tech-listing {
+  .tech-listing,
+.gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery h2,
+.gallery .embed-container {
+    grid-column: 1/3;
   }
 
   .tech-box:last-child {
@@ -7050,6 +7103,16 @@ footer .social .fas {
   }
 
   .tech-title {
+    grid-column: 1/2;
+  }
+}
+@media (max-width: 520px) {
+  .gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gallery h2,
+.gallery .embed-container {
     grid-column: 1/2;
   }
 }
