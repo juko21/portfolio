@@ -4,30 +4,29 @@ Description: I denna rapport behandlas analys av laddningstider för de tre stö
 Template: analysis
 ---
 
-# Load
+## Load
+-------------
 I denna rapport behandlas analys av laddningstider för de tre största mobiloperatörerna i Sverige. Rapporten går först igenom urval och metod, varefter resultat
 för de olika webbsidorna presenteras, följt av en analys.
 
 ###Urval
------------------------
- 
+-------------
 För denna uppgift har jag valt att undersöka hemsidor för de tre största mobiloperatörerna i Sverige: [Tele2](http://www.tele2.se),[Telia](http://www.telia.se) och [Telenor](http://https://www.telenor.se/). Detta urval gjordes då detta är en bransch där de olika företagen har snarlika affärsmodeller och liknande sidupplägg på sin hemsida, vilket underlättar jämförelser kring laddningstider. Därtill kan det finnas förväntningar kring att företag inom telekombranschen bör ha bra förståelse för olika webbteknologier, varför det vore intressant undersöka om detta stämmer överens med verkligheten.
  
 ###Metod
------------------------
+-------------
 Data för analysen har inhämtats på två sätt, dels med hjälp av inspekteringsfunktionen i webbläsaren Firefox, där data rörande nätverksöverföringar har noterats för vardera sida och dels med hjälp av verktyget Google PageSpeed. 
 
 För varje företag har mätningar gjorts på tre sidor: förstasidan, mobiltelefoner och mobilabonnemang. Den data som mäts i webbläsaren är som följer: laddningstid, totalt antal resurser sidans storlek samt överförd storlek. Webbläsarmätningarna genomfördes tre gånger för varje sida, varav snittet av de tre mätningarna noterades. Det bör noteras att Telenors sida i begränsad utsträckning använder sig av sk. “lazy loading”, dvs. laddning av resurser efterhand som de blir synliga, varför det inte var möjligt att få fullt jämförbara mätningar om man laddade in hela sidan. Därför valde jag att för testet mäta laddning av innehåll “above the fold”, dvs. utan scrollning.
 
 Från Google PageSpeed hämtade jag information om “first contentful paint” (FCP), dvs. tiden det tar innan första rendering till sidan har skett samt “largest contentful paint” (LCP), dvs. tiden för rendering av det största synliga bild- eller textblocket på skärmen. För LCP och FCP använde jag Googles samlade data från de senaste 28 dagarna och ej resultat som genererats via min uppkoppling. Jag har även noterat de viktigaste förbättringar/åtgärder som föreslagits av verktyget.
- 
-###Resultat
------------------------
 
+###Resultat
+-------------
 Först bör det noteras att jag har utfört analyserna via mobil 4g anslutning, varför resultaten kan vara missvisande. Jag har enligt bästa förmåga genomfört mätningarna under liknande uppkopplingsförhållanden och har bortsett från kraftigt utstickande resultat, då dessa resultat med hög sannolikhet har varit en följd av ostabil uppkoppling.
  
 Resultaten har sammanfattats i tabellen nedan:
-<iframe class="load-table" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2O7h8aLuHAZbEc2W70tDdTpnbfBj5_d6VJku6-7XKY4L_FdWuomxSZS9OHFzk4phsVm9nhA2is7Hm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class="load-table" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2O7h8aLuHAZbEc2W70tDdTpnbfBj5_d6VJku6-7XKY4L_FdWuomxSZS9OHFzk4phsVm9nhA2is7Hm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="Analysdata"></iframe>
  
 ####Telia
 ![Telia](../image/telia.jpg){.screenshot}
@@ -47,7 +46,7 @@ Telenor skiljer sig från de två andra sidorna då de använder sig av sk. “L
 Dessa resultat bekräftas när man tittar på faktiska filstorlekar i webbläsaren, med bilder som i filstorlek ofta är ca. 4 större än Tele2 och som mest 3.43MB i Javascriptfiler.
  
 ###Analys
------------------------
+-------------
 Efter analys av resultat både från egna mätningar i webbläsaren och mätningar gjorda av Google PageSpeed var det tydligt att de två största problemen som verkar påverka sidornas laddningstid är dåligt optimerade bilder, både vad gäller filformat och storlek och dåligt optimerad Javascript-kod. Samtliga tre sidor hade problem med stora mängder Javascript, varav en del inte verkar användas att döma av resultat från PageSpeed. Det sagt kan det vara svårt att avgöra i hur stor utsträckning detta kan minskas då mycket kod verkar användas för handelsfunktioner. Minifiering verkar inte heller vara ett problem då detta (som förväntat) utförs på samtliga sidor. 
 
 Vad gäller bilder verkar det största problemet, i huvudsak hos Telenor och Telia, vara användning av bilder av fel storlek, i synnerhet för produktbilder, samt kanske för hög bildkvalitet. Vad gäller PageSpeeds förslag att använda modernare bildformat som WebP och AVIF blir detta något svårare att tillämpa då stödet för dessa filformat ännu inte är fullt implementerat, i synnerhet för AVIF, och stödet är dåligt bland äldre webbläsare.

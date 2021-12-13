@@ -1,13 +1,13 @@
 .tech-listing {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: 2 * $def-margin;
-    row-gap: 2 * $def-margin;
+    column-gap: 1 * $def-margin;
+    row-gap: 1 * $def-margin;
 }
 
 .tech-article {
     display: grid;
-    grid-template-columns: 13rem auto;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     column-gap: 2 * $def-margin;
     row-gap: 1 * $def-margin;
 }
@@ -18,11 +18,23 @@
 }
 
 .tech-article-listing {
-    border-right: $font-color solid 1px;
+    
+    grid-column: 1 / 2;
 }
 
-.tech-title {
-    margin-bottom: 0 !important;
+.tech-article-content {
+    grid-column: 2 / 5;
+}
+
+.tech-article-listing p {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 0 $def-margin 0;
+    font-size: 1.4rem;
+}
+
+.tech-title,
+.tech-listing hr {
+    margin: 0 !important;
     grid-column: 1 / 4;
 }
 
@@ -34,13 +46,19 @@
     border-radius: 5px;
     min-height: 250px;
     align-content: space-between;
+    box-shadow: 2px 2px 2px $box-shadow-color;
 }
 
 .tech-box-header {
-    padding: 10px;
+    padding: 10px $def-margin;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: $secondary-color;
+}
+
+.tech-box-header h3 { 
+    font-size: 1.6rem;
+    margin: 0;
 }
 
 .tech-box-header:link { color: $alt-font-color; }

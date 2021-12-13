@@ -42,10 +42,6 @@
         text-align: center;
         cursor: pointer;
     }
-
-    .indeximg {
-        max-width: 300px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -65,20 +61,16 @@
     }
 
     .gallery h2,
-    .gallery .embed-container {
+    .gallery .embed-container,
+    .gallery hr,
+    .tech-title,
+    .tech-box:last-child,
+    .tech-listing hr {
         grid-column: 1 / 3;
     }
 
-    .tech-box:last-child {
-        grid-column: 1 / 3;
-    }
-
-    .tech-title {
-        grid-column: 1 / 3;
-    }
-
-    .tech-article {
-        grid-template-columns: minmax(0, 1fr);
+    .tech-article-content {
+        grid-column: 1 / 5;
     }
 
     .tech-article ul {
@@ -155,12 +147,19 @@
         grid-template-columns: minmax(0, 1fr);
     }
     
-    .tech-box:last-child {
+    .tech-box:last-child,
+    .tech-title,
+    .tech-listing hr {
         grid-column: 1 / 2;
     }
 
-    .tech-title {
-        grid-column: 1 / 2;
+    .left-col,
+    .right-col {
+        grid-column: 1 / 7;
+    }
+
+    .indeximg {
+        margin-top: $def-margin;
     }
 }
 
@@ -170,7 +169,8 @@
     }
 
     .gallery h2,
-    .gallery .embed-container {
+    .gallery .embed-container,
+    .gallery hr {
         grid-column: 1 / 2;
     }
 }
@@ -184,5 +184,20 @@
 
     .social *:first-child {
         margin-left: 0;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        line-height: 2.2rem; 
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        line-height: 1.8rem; 
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        line-height: 1.5rem; 
     }
 }

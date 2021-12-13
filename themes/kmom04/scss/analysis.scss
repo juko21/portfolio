@@ -1,7 +1,7 @@
 .analysis-listing {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 2 * $def-margin;
+    row-gap: $def-margin;
 }
 
 .analysis-article {
@@ -19,6 +19,16 @@
     min-height: 150px;
     align-content: space-between;
     grid-column: 1 / 2;
+    box-shadow: 2px 2px 2px $box-shadow-color;
+}
+
+.analysis-article-content {
+    grid-column: 1 / 5;
+}
+
+.analysis-listing .tech-title,
+.analysis-listing hr {
+    margin: 0;
 }
 
 .analysis-box h4 {

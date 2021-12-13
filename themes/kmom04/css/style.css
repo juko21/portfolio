@@ -6547,6 +6547,11 @@ ol {
   padding-left: 1.4rem;
 }
 
+hr {
+  border-bottom: 1px dashed #333;
+  margin-bottom: 1.4rem;
+}
+
 html {
   font-size: 100%;
 }
@@ -6566,7 +6571,6 @@ h6 {
   font-family: "Rubik", sans-serif;
   margin: 0 0 1.4rem 0;
   font-weight: 300;
-  line-height: 1.4;
   letter-spacing: 0.05em;
 }
 
@@ -6582,26 +6586,36 @@ h2:first-child {
 
 h1 {
   font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
 }
 
 h3 {
-  font-size: 1.9rem;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
 }
 
 h4 {
   font-size: 1.6rem;
+  line-height: 1.6rem;
 }
 
 h5 {
   font-size: 1.3rem;
+  line-height: 1.3rem;
 }
 
 h6 {
   font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+footer h2 {
+  font-size: 1.6rem;
 }
 
 p {
@@ -6658,6 +6672,10 @@ p:first-child {
 
 .nav ul li {
   padding: 0.5em;
+}
+
+.nav ul li:last-child {
+  padding-right: 0;
 }
 
 .nav-toggle {
@@ -6766,20 +6784,43 @@ pre code {
 }
 
 .indeximg {
-  max-width: 400px;
-  float: right;
+  width: 100%;
+}
+
+.index-main {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  column-gap: 2.8rem;
+  row-gap: 0;
+}
+
+.index-header,
+.index-main hr {
+  grid-column: 1/7;
+}
+
+.left-col {
+  grid-column: 1/4;
+}
+
+.right-col {
+  grid-column: 4/7;
+}
+
+.full-width {
+  grid-column: 1/7;
 }
 
 .tech-listing {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 2.8rem;
-  row-gap: 2.8rem;
+  column-gap: 1.4rem;
+  row-gap: 1.4rem;
 }
 
 .tech-article {
   display: grid;
-  grid-template-columns: 13rem auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   column-gap: 2.8rem;
   row-gap: 1.4rem;
 }
@@ -6790,11 +6831,22 @@ pre code {
 }
 
 .tech-article-listing {
-  border-right: #333 solid 1px;
+  grid-column: 1/2;
 }
 
-.tech-title {
-  margin-bottom: 0 !important;
+.tech-article-content {
+  grid-column: 2/5;
+}
+
+.tech-article-listing p {
+  font-family: "Rubik", sans-serif;
+  margin: 0 0 1.4rem 0;
+  font-size: 1.4rem;
+}
+
+.tech-title,
+.tech-listing hr {
+  margin: 0 !important;
   grid-column: 1/4;
 }
 
@@ -6805,13 +6857,19 @@ pre code {
   border-radius: 5px;
   min-height: 250px;
   align-content: space-between;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.2);
 }
 
 .tech-box-header {
-  padding: 10px;
+  padding: 10px 1.4rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #538088;
+}
+
+.tech-box-header h3 {
+  font-size: 1.6rem;
+  margin: 0;
 }
 
 .tech-box-header:link {
@@ -6883,11 +6941,18 @@ pre code {
 
 .thumbnail img {
   width: 100%;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.2);
 }
 
 .gallery h2,
-.gallery .embed-container {
+.gallery .embed-container,
+.gallery hr {
   grid-column: 1/4;
+}
+
+.gallery hr,
+.gallery h2 {
+  margin: 0;
 }
 
 .embed-container {
@@ -6896,6 +6961,7 @@ pre code {
   padding-bottom: 56.25%;
   overflow: hidden;
   max-width: 100%;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.2);
 }
 
 .embed-container iframe,
@@ -6911,7 +6977,7 @@ pre code {
 .analysis-listing {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 2.8rem;
+  row-gap: 1.4rem;
 }
 
 .analysis-article {
@@ -6929,6 +6995,16 @@ pre code {
   min-height: 150px;
   align-content: space-between;
   grid-column: 1/2;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.2);
+}
+
+.analysis-article-content {
+  grid-column: 1/5;
+}
+
+.analysis-listing .tech-title,
+.analysis-listing hr {
+  margin: 0;
 }
 
 .analysis-box h4 {
@@ -6991,10 +7067,6 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-
-  .indeximg {
-    max-width: 300px;
-  }
 }
 @media (max-width: 768px) {
   .col40 {
@@ -7013,20 +7085,16 @@ pre code {
   }
 
   .gallery h2,
-.gallery .embed-container {
+.gallery .embed-container,
+.gallery hr,
+.tech-title,
+.tech-box:last-child,
+.tech-listing hr {
     grid-column: 1/3;
   }
 
-  .tech-box:last-child {
-    grid-column: 1/3;
-  }
-
-  .tech-title {
-    grid-column: 1/3;
-  }
-
-  .tech-article {
-    grid-template-columns: minmax(0, 1fr);
+  .tech-article-content {
+    grid-column: 1/5;
   }
 
   .tech-article ul {
@@ -7102,12 +7170,19 @@ footer .social .fas {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .tech-box:last-child {
+  .tech-box:last-child,
+.tech-title,
+.tech-listing hr {
     grid-column: 1/2;
   }
 
-  .tech-title {
-    grid-column: 1/2;
+  .left-col,
+.right-col {
+    grid-column: 1/7;
+  }
+
+  .indeximg {
+    margin-top: 1.4rem;
   }
 }
 @media (max-width: 520px) {
@@ -7116,7 +7191,8 @@ footer .social .fas {
   }
 
   .gallery h2,
-.gallery .embed-container {
+.gallery .embed-container,
+.gallery hr {
     grid-column: 1/2;
   }
 }
@@ -7128,5 +7204,20 @@ footer .copy {
 
   .social *:first-child {
     margin-left: 0;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }

@@ -4,11 +4,11 @@
 <div class="grid-wrapper">
     {% include 'incl/nav.twig' %}
         <main class="main analysis-listing" role="main">
-            <h2 class="tech-title">ANALYSRAPPORTER</h2>
+            <h2 class="tech-title">ANALYSER</h2><hr>
             {% for page in pages("analysis/") %}
                 <div class="analysis-box">
                     <a class="tech-box-header" href="{{ page.url }}">
-                        <h4>{{ page.title }}</h4>
+                        <h3>{{ page.title }}</h3>
                     </a>
                     <div class="tech-box-content">
                         <p>{{ page.description }}

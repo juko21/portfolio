@@ -3,9 +3,10 @@ Title: Hem
 Description: Indexsida.
 ---
 
-<div class="row index_main" markdown="1">
-<div class="col40" markdown="1">
-##VÄLKOMMEN TILL MIN PORTFOLIO
+<div class="index-main" markdown="1">
+##VÄLKOMMEN TILL MIN PORTFOLIO{.index-header}
+<hr>
+<div class="left-col" markdown="1">
 Mitt namn är Juhani Kotaniemi. Jag är född och uppvuxen utanför Landskrona i Skåne och har efter flera år utomlands, däribland Irland, Sydkorea och Japan, lyckats landa på hemmaplan igen. 
 
 Med en bakgrund i printdesign och språk har jag nu beslutat mig för att sent om sider på allvar ge mig på webbutveckling.
@@ -15,7 +16,7 @@ När jag inte sitter framför datorn, och i tider med lite färre pandemier, gil
 
 /Juhani Kotaniemi
 </div>
-<div class="col40" markdown="1">
+<div class="right-col" markdown="1">
 ![Jag](image/me.jpg){.indeximg}
 </div>
 </div>

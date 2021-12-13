@@ -1,9 +1,87 @@
 ---
 Title: Designprinciper
-Description: Designprinciper
+Description: I denna rapport behandlas analys av designprinciper som används på ett urval av portfoliosidor.
 Template: analysis
 ---
 
-# Designprinciper
+## Designprinciper
+----------
 
-```
+I denna rapport behandlas analys av designprinciper som används på ett urval av portfoliosidor samt på min egen portfoliosida som har byggts för kursen.
+
+###Urval
+----------
+
+Inför analysen har jag valt ut tre portfoliosidor tillhörande fristående designers. För att få ett relativt uppdaterat urval valde jag att titta på pristagare av [svenska designpriset 2020](https://capdesign.se/svenska-designpriset-pristagare-2020/), varifrån jag valde ut hemsidorna för tre olika pristagare. Jag tittade först på pristagare 2021, men kunde inte hitta tre sidor för fristående formgivare som var lämpliga för denna analys. Det enda kriteriet för urvalet på sidan för designpriset var att sidan skulle tillhöra en enskild designer. Jag valde ut sidor från toppen ner för att undvika kurering av urvalet. Anledningen att jag valde att endast använda mig av sidor för fristående designers är att uppgiften för kursmomentet specificerade att det var personsidor som skulle undersökas, men även för att personsidor gärna tillåter för större möjlighet att experimentera med personligt uttryck, vilket kan vara intressant ur ett analysperspektiv. Urvalet föll på följande sidor: [Martin Ohlsson](https://www.martinohlsson.com/), [Fredrik Söder](https://soder.io/) och [Johan Hellström](https://www.jonashellstrom.se/) .
+
+##Metod
+----------
+
+För vardera sida har jag gått igenom samtliga undersidor på hemsidorna, med undantag för enskilda projektsidor. För projektsidor har jag tittat på tre stycken projekt per portfoliosida då det kan antas att projektsidorna följer samma mall.
+För varje hemsida har jag noterat hemsidans syfte och mål, generella kommentarer om hemsidans design och känsla samt huruvida jag anser att mål och syfte gynnas av hemsidans design. Sist men inte minst har jag analyserat enskilda designprinciper enligt [Design elements and principles](https://www.canva.com/learn/design-elements-principles/) och tittat på huruvida dessa används genomgående på hemsidan.
+
+###Resultat
+----------
+
+####[Martin Ohlsson](https://www.martinohlsson.com/)
+![Martin Ohlsson](../image/martin.jpg){.screenshot}
+
+
+Webbsidans syfte är, liksom andra hemsidor i denna undersökning att marknadsföra designern och dennes arbete med målet, får man anta, att få fler uppdrag.
+Det första intrycket är att det är en ytterst klassisk portfoliosida, där projekten står i fokus och övriga intryck undviks. Förstasidan består av ett projektgalleri med ett grid av stora thumbnails, text är sparsmakad och utgörs endast av meny, footer samt bildrubriker som syns vid “hover”, utskrivna i ett serif-typsnitt. En enskild gallerisida har skapats för bokomslag i liknande stil med strikt grid, men med tre kolumner istället för två. Om-sidan är likadant enkel med en enstaka bild längst upp och information linjerad strikt uppradad i ett grid.
+
+Man kan anta att en portfoliosida kan ha två syften: att marknadsföra designern och att visa upp tidigare arbeten, detta för att vidare marknadsföra designern. På denna sida är det tydligt att designern valt att låta projekten tala för sig själv. Dessa är i fokus och det kan tyckas finnas en generell avsaknad av personlig prägel. Det sagt kan denna sparsamhet i uttryck i sig säga mycket om designern, i det att denne hellre låter sitt arbete tala för sig. Det strikta gridet och den klassiska layouten, som gör sig påmind om sparsmakad tidskriftsdesign enligt den modernistiska skolan, kan sägas vara talande för designerns stil och preferenser. Dessa preferenser är i viss mån genomgående i några av designers projekt. På så sätt kan man anse att sidan väl lyckas med sitt mål att marknadsföra projekten, men också, potentiellt, visa upp designerns personliga val och stil.
+
+När det kommer till designprinciper står det strikta gridet ut över allt annat, inom detta gridet får bilder ta mest plats och skala och hierarki används på ett effektivt sätt både på så sätt att bilderna får stå i fokus medan typografi uppvisar en tydlig och behaglig hierarki mellan rubriker och den sparsamma brödtext som finns. Dessa designprinciper används genomgående på ett effektivt och enhetligt sätt genom samtliga undersidor, även om bilderna på produktsidorna får ta ännu mer plats och ofta visas upp i helbredd.
+
+####[Fredrik Söder](https://soder.io/)
+![Fredrik Söder](../image/fredrik.jpg){.screenshot}
+
+Där fokus hos Martin Ohlsson i mycket låg på att visa upp tidigare arbeten verkar Fredrik Söder fokusera mer på att marknadsföra sig själv och de tjänster han erbjuder. Där slutmålet kan antas vara detsamma, att få fler uppdrag genom marknadsföring, tycks tillvägagångssättet vara vitt skilt och syftet med hemsidorna kan inte heller anses vara fullt likvärdiga. Fredrik Söder säljer som sagt sina tjänster och marknadsför sig själv som konsult, medan Martin Ohlsson kan sägas marknadsföra sig genom att “sälja sina projekt”.
+Vad som slår en när man besöker hemsidan är att den i jämförelse har ett tydligt fokus på det digitala. Där Martin Ohlssons portfoliosida är minimalistisk och strikt griddrivet och i viss mån påminner om sparsmakad tidskriftsdesign, uppvisar Fredrik Söders sida långt större influenser från UI/UX-trender från de senaste tio åren. Färgschemat går i mörkgrått och vitt med grön som accentfärg och webbsidan uppvisar tydliga influenser av “wordpressliknande” design (sidan använder sig mycket riktigt också av wordpress), där sidan tydligt delas upp i sektioner som inte nödvändigtvis inpassas i samma eller liknande kolumngrid och närmast fungerar som fristående delar. I övrigt används naivistiska illustrationer och kort med rundade hörn och drop shadow.
+
+Designen, även om den har ett genomgående färgspråk och återkommande designelement, känns generisk och designen i fråga känns något daterad, tydligt styrd av hur wordpressteman ofta struktureras. Även om designen, i synnerhet färgschemat, verkar signalera att det är det tjänster rörande digital design och marknadsföring (Fredrik söder titulerar sig själv som konsult inom digital marknadsföring) känns det övergripande designintrycket något förvirrat och gynnar inte nödvändigtvis webbplatsens mål. De naivistiska illustrationerna, som används huvudsakligen som ikoner, tillför inget och går stick i stäv med färgschemat, som erinrar sig om den mer tekniska sidan av webbutveckling.
+
+Vad gäller designprinciper finns det några saker att peka på som används relativt väl, hierarki är inom typografin tydlig, där Fredrik använder sig av ett geometriskt sans serif-typsnitt, med väldigt fet stil och stora typsnittsstorlekar för rubriker och normal vikt och mindre storlekar för brödtext. Typografin i övrigt fungerar väl med den övergripande kompositionen och färgschemat. Kompositionen i sin tur tillför till hierarkin och är tydlig men lider av problem där de enskilda sektionerna inte fungerar väl sinsemellan och lider av brist på justering mellan segmenten, i synnerhet när det kommer till ett tänkt övergripande grid. Många av designprinciperna som nämnts ovan är genomgående för hela sidan, men inbördes komposition skiljer sig ganska kraftigt mellan segment och undersidor, vilket gör att sidan känns mindre enhetlig.
+
+####[Jonas Hellström](https://www.jonashellstrom.se/)
+![Jonas Hellström](../image/jonas.jpg){.screenshot}
+
+Jonas Hellströms sida är i sitt upplägg mer lik Martin Ohlssons sida i det att fokus sätts på utförda arbeten och projekt. På så sätt får man anta att det huvudsakliga syftet med sidan är marknadsföring av designern genom hans projekt, med mål att få fler uppdrag.
+
+Likt Martin Ohlsson utmärks Jonas Hellströms design av ett starkt fokus på projekt och projektbilder. Förstasidan består av ett helsidesbildspel som uppvisar utvalda projekt, medan projektgalleriet är uppradat i ett strikt grid. Även de enskilda projektsidorna utmärks av att de består huvudsakligen av projektbilder uppradade i ett strikt grid, skiftande mellan fullbreddsbilder och bilder över två kolumner. Textstycken är förhållandevis enkla och utskrivna i fullbredd och samtlig text använder sig av samma typsnitt, Hammersmith. Detta typsnitt består till synes endast av en vikt, varför den typografiska hierarkin blir mindre tydlig. Även om typsnittet, ett lågkontrast sans-serif typsnitt, har hämtat inspiration från Johnston, ett typsnitt från den tidiga halvan av 1900-talet som gjorts känt av sitt användande i Londons tunnelbana, tillför det i samband med användandet av helskärmsbilder ett modernt och fräscht uttryck. På det hela ger designen ett modernt och minimalistiskt intryck där projekten får tala för sig själv.
+
+Webbsidans design anser jag väl möta de mål som designern kan ha tänkas ha haft med webbsidan, att marknadsföra hans projekt och i förlängningen sig själv som designer. Bilder och projekt sätts i fokus och det strikta gridet i samband med väl utförda projektbilder medger ett stilrent och fokuserat intryck. Typsnittet passar även in väl med formspråket och talar återigen för designerns stil och preferenser, även om det också skapar problem med att definiera hierarki i textstycken med sin brist på olika vikter. 
+
+Återigen är det gridet som är den mest framstående designprincipen på denna sida, vilket används för att organisera projektgalleri och projektsidor och i förlängningen medger en stilren komposition med minimalistiska drag. Typografi går ej heller att ignorera som designprincip och dess grundläggande form är komplementärt till den övergripande känslan för sidan. Dock så skapar dess brist på vikter ett problem när det kommer till hierarki i textstycken. Övergripande hierarki mellan bilder och textstycken blir dock tydlig, där bilder får stå i fokus. Vidare kan man ha visst överseende med just detta problem då text i allmänhet används väldigt sparsamt och generellt sammanfattas i ett kort stycke, nästan som en ingress. 
+
+Sidupplägg är överlag simpelt med endast fyra huvudsidor samt undersidor för de olika projekten, men det kan sägas att samtliga designprinciper som använts överlag är genomgående och det övergripande designspråket är igenkännligt över hela sidan. Det enda som sticker ut något är om-sidan där text och bild delats upp över två kolumner, där bilder och text på övriga sidor har centrerats över sidan. Det sagt så är upplägget på denna sidan väl balanserat och skapar i övrigt inte problem. När det kommer till texten blir bristen på hierarki dock desto tydligare på grund av den längre brödtexten som här presenteras.
+
+### Analys
+----------
+
+När det kommer till designprinciper och portfoliohemsidor är det till synes så att det är gridet som ofta utmärker deras design, vilket tydligt kan ses på Martin Ohlssons och Johan Hellströms hemsidor. Av sin natur, där det generellt är projekten som ska stå i fokus, är detta det till synes mest naturliga sättet att organisera information. Det låter designern organisera på ett bra sätt och sätter samtidigt produktbilder i fokus. Just gridet är ju också något som i designsammanhang, i synnerhet grafisk design, är integralt till arbetet och som nyttjas långt bredare inom print design än vad som kan skönjas på webben. Ett väl utfört grid tillåter kontrollerad frihet inom dess ramar och behöver inte strikt definieras som element i raka rader och kolumner. Denna möjlighet att variera storlek på element och låta dem flyta över flera kolumner och rader är dock inget som nyttjas i alltför stor utsträckning på portfoliosidor, i synnerhet gallerier, men kan dock ses på projektsidor, där olika bilder tillåts ta olika plats.
+
+I övrigt är typografi och hierarki, som är en naturlig del av typsättning, också viktigt, inte bara på portfoliosidor men på alla former av hemsidor och även i printdesign. För att underlätta intag av information är det ofta önskvärt att nyttja tydlig hierarki av både typografi och element för att leda användaren och skapa en riktning för användaren att följa. Av de tre sidorna användes typografisk hierarki väl på både Martin Ohlssons hemsida och Fredrik Söders hemsida, där rubriker och brödtext tydligt särskiljs genom bruk av olika vikter och storlekar. Typografisk hierarki saknas dock i stor utsträckning på Jonas Hellströms sida, vilket möjligtvis kan vara ett medvetet val. Typsnittet som används här är lågkontrast och består av endast en vikt, vilket ger sämre möjligheter för att fastställa just typografisk hierarki. Hierarki mellan samtliga inbördes designelement är dock relativt tydlig på samtliga hemsidor, i synnerhet Martin Ohlssons och Jonas Hellströms sidor, där bilder tydligt sätts i fokus och högst upp inom hierarki. Det är hit ögonen ska ledas. 
+
+Komposition fungerar återigen relativt väl på samtliga sidor, i synnerhet på Martin Ohlssons och Jonas Hellströms sidor, vilket underlättas av det starka fokuset på bilder och strikt användande av grid. Fredrik Söders hemsida lider av något jag själv vill kalla “wordpresssyndrom”, där sektioner på hemsidan tydligt delas upp i egna fristående enheter som designmässigt behandlas självständigt. Detta leder till mindre enhetlig design och ett något sämre flöde. Sidan lider också av problem med justering och linjering av element över sektioner, vilket återigen bryter upp flödet. Att sätta upp ett tydligt grid system, om även bara med ett gridgramverk och inte css3-grids, hade här kunnat vara till stor hjälp.
+
+Färgscheman har på två av sidorna använts sparsamt och är generellt monokromt svartvita, något som erinrar minimalism och är relativt vanligt på just portfoliosidor. Den tredje, Fredrik Söders hemsida, använder sig av ett distinkt mörkgrå-vitt färgschema med grönt som accentfärg. Detta avstickande färgschema signalerar att Fredrik sysslar med det digitala och i detta fall digital marknadsföring, men står i kontrast med övriga designelement såsom naivistiska illustrationer, en kontrast som i detta fall, enligt min åsikt, inte fungerar särskilt väl och förvirrar uttrycket.
+
+### Analys egen hemsida
+----------
+
+När det kommer till min egen portfoliosida för kursen har jag valt att arbeta med en luftig design med mycket vityta, i synnerhet på desktop. Detta för att tillsammans med färgpaletten: mörkgrått på ljusblått med med mörkare blågrönt och off-white som sekundärfärger och rosa som accentfärg (som endast används vid hover över länkar), skapa ett lugnt uttryck. I övrigt kännetecknas hemsidan av linjering av element och grids, samtliga sidor använder samma bredd för content, enligt vilket element linjeras. Detta för att skapa ett enhetligt uttryck.
+
+Då hemsidan inte har ett lika tydligt mål som säg en portfoliosida, utan snarare är ett verktyg för lärande under kursen, anser jag det vara svårt att tala om huruvida designen gynnar webbplatsens mål. Det sagt så började jag att utforma webbsidan utifrån just konceptet portfolio, där jag tänkte mig att ett galleri skulle vara huvudfokus. Just från denna utgångspunkt tror jag att designen som helhet förvisso skulle fungera, men att arbete skulle krävas utifrån faktiskt portfolioinnehåll så att detta innehåll likt Martin Ohlssons och Jonas Hellströms ska kunna sättas i fokus. Detta kan tex. göras genom arbete med komposition inom ett grid och bildspråk. Meningen i övrigt har varit att skapa ett luftigt och lugnt uttryck där content får ta plats, vilket det får göra med riklig vityta och lugn färgpalett. Dock så kan designen på sina håll kännas lite platt. När det kommer till hemsidans navbar och footer kan man även skönja användning av viss symmetry, där element placeras i hemsidans vardera hörn, medan logotypen är centrerad i navbaren.
+
+Jag känner att designen för samtliga sidor och undersidor är relativt genomgående vad gäller användning av desingprinciper som grid, färgschema, linjering (av element inom ett grid), symmetry, typografi och hierarki. Användningen av samma bredd för innehåll, och strikt justering mot detta tänkta grid hjälper att hålla det enhetligt. Dock så skiljer sig inbördes grid sidor emellan, framsidan linjerar t.ex. upp element endast mot det tänkta gridets yttre gränser och inte inbördes. Sådana skillnader kommer sig dock av de olika sidornas natur och krav på att visa upp innehåll. Färgschemat är genomgående för hela sidan, även om det används olika efter behov. 
+
+När det kommer till uppdateringar och implementering av nya designprinciper ser jag det som svårt att implementera många av de designprinciper som inte redan implementerats, dvs. grid, enhetligt färgschema, linjering och justering, typografi och hierarki inom typografi. 
+
+Textur, stark kontrast (utöver kontrast mellan bakgrund och text), skala (utöver det som krävs för att skapa hierarki), repetition (utöver fastställda designelement såsom boxar), transparens, slumpmässighet och rörelse känner jag t.ex. blir svårt att implementera antingen på grund av att det skulle skära sig med det tänkta formspråket, som är relativt nedtonat, eller då det inte är motiverat på grund av brist på lämpligt innehåll att applicera på eller brist på branding (vad gäller repetition av igenkännbara bildelement). Områden som jag identifierat där jag kan tillföra designelement eller arbeta mer med designen är grid, där jag på förstasidan och de enskilda teknologisidorna kommer att applicera ett 6-kolumners grid respektive 4-kolumnersgrid för att bättre strukturera sidorna; djup, där jag kommer att lägga en diskret dropshadow på klickbara bild- och blockelement samt linjering, där horisontella linjer kan läggas till för att skapa bättre hierarki i texter och i innehåll. Strikt sett tror jag att djup och linjering via faktiska linjer inte är strikt nödvändiga, och jag är inte heller säker på om det tillför något till den grundläggande designen, men för uppgiften i fråga är det här jag kommer lägga fokus, då jag ser få möjligheter på annat håll utan att skapa en ny helt design från grunden.
+
+
+### Övrigt
+-------------
+Denna rapport har skrivits enskilt av Juhani Kotaniemi

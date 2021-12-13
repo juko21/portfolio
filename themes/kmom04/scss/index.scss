@@ -1,4 +1,27 @@
 .indeximg {
-    max-width: 400px;
-    float: right;
+    width: 100%;
+}
+
+.index-main {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: 2 * $def-margin;
+    row-gap: 0;
+}
+
+.index-header,
+.index-main hr {
+    grid-column: 1 / 7;
+}
+
+.left-col {
+    grid-column: 1 / 4;
+}
+
+.right-col {
+    grid-column: 4 / 7;
+}
+
+.full-width {
+    grid-column: 1 / 7;
 }

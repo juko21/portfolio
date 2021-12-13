@@ -3,13 +3,13 @@ Title: Färganalys
 Description: Denna rapport behandlar analys av färgscheman på ett urval av hemsidor för möbelvaruhus i Sverige.
 Template: analysis
 ---
-# Färganalys
-
+## Färganalys
+-------------
 Denna rapport behandlas analys av färgscheman på ett urval av hemsidor för möbelvaruhus i Sverige. Rapporten går först igenom urval och metod, varefter resultat
 för de olika webbsidorna presenteras, följt av en analys.
 
 ###Urval
------------------------
+-------------
 
 För uppgiften har jag valt att titta på tre stycken olika Svenska möbelvaruhus, [IKEA](http://www.ikea.se), [Mio](http://www.mio.se) och [Svenssons i Lammhult](http://www.svenssons.se). Detta urval gjordes först och främst då jag har ett starkt intresse för möbeldesign och även design generellt. Jag tyckte även att de vore en intressant sektor att undersöka då företagen i fråga av sin natur ligger nära design och att det kan antas att de har lagt vikt vid design och färgval vid utformning av företagsprofil och hemsida.
 
@@ -17,12 +17,12 @@ Urvalet har gjorts utifrån två huvudsakliga kriterier: företagen ska vara rel
 IKEA är som bekant globalt och vänder sig till en bred marknad med lägre priser, Mio kan sägas ligga i medelklassen med något högre priser än IKEA och kanske något större fokus på medelklass som målgrupp, medan Svenssons i Lammhult säljer vad som kan kallas “designmöbler”, med många designklassiker i sitt utbud, avsevärt högre priser och en mer välbeställd och kanske mer designmedveten målgrupp.
 
 ###Metod
------------------------
+-------------
 
 För att kunna genomföra analysen av dessa webbplatser har jag jag använt mig av webbläsartillägget “ColorZilla” för att plocka ut färger på webbplatsen med hjälp av en färgpipett, varefter dessa noterats i denna rapport. Färgerna har sedan analyserats med hjälp av ett färghjul på [Adobe Color](https://color.adobe.com/sv/create) för att försöka avgöra hur urvalet av färger har gjorts och om färgteorier kan tillämpas, t.ex. huruvida urval har gjorts baserat på komplementfärger. Dessa resultat har sedan analyserats nedan. Det bör noteras att jag inte har tagit logotyperna i större beaktning eller inkluderat dessa i färgschemat då Mio har en svart logotyp, Svenssons i Lammhult en inverterad vit logotyp och färgerna från IKEAs logotyp inte återfinns i det övriga färgschemat (Dock så använder sig IKEA av en annan nyans av blått).
 
 ###Resultat
------------------------
+-------------
 
 ####IKEA
 ![IKEA](../image/ikea_screen1.jpg){.screenshot}
@@ -115,7 +115,7 @@ För typsnitt används Circular, ett geometriskt sans-serif-typsnitt, nästan ge
 Som konstaterats ovan skiljer sig Svenssons i Lammhults målgrupp kraftigt från de två övriga företagen, med ett fokus på dyrare designmöbler och mer designmedvetna och välbemedlade kunder. Företaget har lyckats väl i att skapa ett sammanhängande färgtema som i sammanhanget förmedlar ett mer exklusivt uttryck och en känsla av "design", med en nedtonad färgpalett som komplementerar deras utbud av möbler. Även huvudtypsnittet förmedlar en känsla "design" med sin geometriska design.
 
 ###Analys
------------------------
+-------------
 Vad som tydligast framgår när man tittar på de tre sidorna i sin helhet är två tendenser: minimalism när det kommer till grundläggande färgval för gränssnittet och en stark tendens att lyfta fram bilder, vilket får antas vara anledningen att ett monokromt svart-grå-vitt tema ligger i grunden för samtliga tre sidor. Trots dessa likheter kan man dock se tydliga skillnader i de olika sidornas designuttryck, vilket i stor utsträckning kan koppas till valet av färger, och kanske framförallt hur dessa används.
 
 När det kommer till IKEA är detta det företag som mest rikligt använder sig av färger, huvudsakligen genom platta färgade blockelement. Av dessa färger står två färger ut som huvudfärger, en inte helt mättad klar blå och grön färg, där den blåa färgen ligger nära den färg som används i logotypen, om än något ljusare. Värt att notera är att den gula färgen från IKEAs ikoniska logotyp inte förekommer i färgschemat utanför logotypen, vilket möjligtvis kan ha att göra med de lässvårigheter som ofta följer med klargula färger när de används med annat än mycket mörka färger och den starka och i sammanhanget kanske oönskade kontrast de bidrar till när de används med svart. 
